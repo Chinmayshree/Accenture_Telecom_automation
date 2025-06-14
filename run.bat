@@ -1,0 +1,2 @@
+cd D:\SeleniumPracticeByPavanSir\SeleniumPracticeByPavanSir\Opencart
+mvn test

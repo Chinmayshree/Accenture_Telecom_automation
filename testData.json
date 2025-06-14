@@ -1,0 +1,14 @@
+{
+  "studentInfo": [
+    {
+      "RollNo": 102,
+      "studentName": "Chinmay",
+      "City": "Pune"
+    },
+    {
+      "RollNo": 103,
+      "studentName": "hari",
+      "City": "Pune"
+    }
+  ]
+}
