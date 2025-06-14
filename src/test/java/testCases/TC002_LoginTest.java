@@ -19,18 +19,18 @@ public class TC002_LoginTest extends BaseClass {
 			// home page
 			homepage = new HomePage(driver);
 			homepage.clickMyAccountLink();
-			logger.info("Clicked on MyAccounLink");
+			logger.info("Clicked on the MyAccounLink");
 
 			loginpage = homepage.clickLoginLink();
-			logger.info("Clicked on LoginLink");
+			logger.info("Clicked on the LoginLink");
 
 			// loginpage=new LoginPage(driver);
 			loginpage.setLoginEmailAdd(p.getProperty("E-MailAddress"));
 			logger.info("Entered the  email");
 			loginpage.setLoginPassword(p.getProperty("password"));
-			logger.info("Entered the  password");
+			logger.info("Entered the password");
 			myaccountpage = loginpage.clickLogin();
-			logger.info("Click on login");
+			logger.info("Click on the login");
 
 			logger.info("Validating login test");
 			// myaccountpage=new MyAccountPage(driver);
